@@ -78,23 +78,29 @@ public class Robo_Starter {
                 System.out.println("Email: " + Robo_Declare.email.get(counter));
                 System.out.println("Phone: " + Robo_Declare.phone.get(counter));
                 System.out.println("Education:");
+                System.out.println("----------");
                 for (int j = 0; j < Education.counterSaver1.get(counter); j++) {
                     System.out.println("Major In " + Education.major.get(j));
                     System.out.println("University: " + Education.university.get(j));
                     System.out.println("Graduation Year: " + Education.year.get(j));
+                    System.out.println();
                 }
-
+                System.out.println();
                 System.out.println("Experience:");
+                System.out.println("-----------");
                 for (int k = 0; k < Experiance.counterSaver2.get(counter); k++) {
                     System.out.println("Title: " + Experiance.title.get(k));
                     System.out.println("Company: " + Experiance.company.get(k));
                     System.out.println("Date: " + Experiance.date.get(k));
                     System.out.println("Description: " + Experiance.description.get(k));
+                    System.out.println();
                 }
-
+                System.out.println();
                 System.out.println("Skill:");
+                System.out.println("------");
                 for (int l = 0; l < Skill.counterSaver3.get(counter); l++) {
                     System.out.println(Skill.skillT.get(l) + "," + Skill.rating.get(l));
+                    System.out.println();
                 }
             }
         }
